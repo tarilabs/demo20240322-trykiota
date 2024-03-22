@@ -1,0 +1,32 @@
+{
+  "descriptionHash": "47E3D3CF63650F1AE54F2AB86496E048A750AE476360FA77FF5D7EA03D5D7D7B0A46E24FDDEDCDA17D06D771CB0EFABEDAA8DCA20965831622A14BDF3193231A",
+  "descriptionLocation": "../model-registry.yaml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.12.0",
+  "clientClassName": "MRClient",
+  "clientNamespaceName": "mrclient",
+  "language": "Python",
+  "usesBackingStore": false,
+  "excludeBackwardCompatible": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Multipart.MultipartSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain;q=0.9",
+    "application/x-www-form-urlencoded;q=0.2",
+    "multipart/form-data;q=0.1"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}
